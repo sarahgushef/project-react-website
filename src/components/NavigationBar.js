@@ -36,7 +36,7 @@ export default class NavigationBar extends React.Component {
             <li>
               <Link to="/SkincarePage">SKINCARE</Link>
             </li>
-            <li>HAIR AND BODY</li>
+            <li>HAIR &amp; BODY</li>
             <li>BEST SELLERS</li>
             <li>BRANDS</li>
             <li>OUR STORY</li>

@@ -1,17 +1,17 @@
 import React from "react"
 
+import SkincareBanner from "./../assets/images/banner-skincare-page.jpg"
+
 import { Container } from "semantic-ui-react"
 
 const Jumbotron = {
   display: "block",
   color: "black",
-  backgroundColor: "#f3e5e5",
+  backgroundImage: `url(${SkincareBanner})`,
   margin: "0px",
   padding: "60px 80px",
   height: "350px"
 }
-
-// const BannerText = {}
 
 export default class Banner extends React.Component {
   render() {
