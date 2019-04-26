@@ -1,11 +1,13 @@
 import React from "react"
 import { Card, Image } from "semantic-ui-react"
 
+import ProductImage from "../assets/thumbnails/neogen-vita-c-powder.jpg"
+
 export default class ProductCard extends React.Component {
   render() {
     return (
       <Card>
-        <Image src="https://cdn.shopify.com/s/files/1/0249/1218/products/Neogen_Vita_C_Powder_PDP_1_900x.jpg?v=1551797578" />
+        <Image src={ProductImage} />
         <Card.Content>
           <Card.Header>Neogen</Card.Header>
           <Card.Meta>
