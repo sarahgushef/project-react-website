@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 import styled from "@emotion/styled"
 
@@ -32,7 +33,9 @@ export default class NavigationBar extends React.Component {
         <div>SOKO GLAM</div>
         <div>
           <NavigationCenter>
-            <li>SKINCARE</li>
+            <li>
+              <Link to="/SkincarePage">SKINCARE</Link>
+            </li>
             <li>HAIR AND BODY</li>
             <li>BEST SELLERS</li>
             <li>BRANDS</li>
